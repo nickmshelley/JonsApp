@@ -13,6 +13,7 @@
 		324E0F0019EE15C200157F77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324E0EFF19EE15C200157F77 /* Images.xcassets */; };
 		324E0F0319EE15C200157F77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 324E0F0119EE15C200157F77 /* LaunchScreen.xib */; };
 		324E0F0F19EE15C200157F77 /* JonsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E0F0E19EE15C200157F77 /* JonsAppTests.swift */; };
+		329BC10E1A25621F00417CC3 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329BC10D1A25621F00417CC3 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		324E0F0819EE15C200157F77 /* JonsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JonsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		324E0F0D19EE15C200157F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		324E0F0E19EE15C200157F77 /* JonsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JonsAppTests.swift; sourceTree = "<group>"; };
+		329BC10D1A25621F00417CC3 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				324E0EF819EE15C200157F77 /* AppDelegate.swift */,
 				324E0EFA19EE15C200157F77 /* ViewController.swift */,
+				329BC10D1A25621F00417CC3 /* ResultsViewController.swift */,
 				324E0EFC19EE15C200157F77 /* Main.storyboard */,
 				324E0EFF19EE15C200157F77 /* Images.xcassets */,
 				324E0F0119EE15C200157F77 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				324E0EFB19EE15C200157F77 /* ViewController.swift in Sources */,
 				324E0EF919EE15C200157F77 /* AppDelegate.swift in Sources */,
+				329BC10E1A25621F00417CC3 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				324E0F1419EE15C200157F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		324E0F1519EE15C200157F77 /* Build configuration list for PBXNativeTarget "JonsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				324E0F1719EE15C200157F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

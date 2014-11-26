@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -61,12 +61,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJ5-W6-bO0">
-                                <rect key="frame" x="26" y="264" width="54" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vdu-rp-Xbq">
                                 <rect key="frame" x="26" y="209" width="49" height="30"/>
                                 <state key="normal" title="Submit">
@@ -76,12 +70,6 @@
                                     <action selector="submit" destination="BYZ-38-t0r" eventType="touchUpInside" id="1TP-OV-Kty"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Tb-yE-hKi">
-                                <rect key="frame" x="26" y="295" width="548" height="295"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -92,9 +80,7 @@
                             <constraint firstItem="2LW-aj-XNf" firstAttribute="leading" secondItem="Z4I-nB-FIo" secondAttribute="leading" id="DeM-Na-ZIa"/>
                             <constraint firstItem="Man-pH-MAj" firstAttribute="leading" secondItem="r19-AP-43b" secondAttribute="leading" id="Ixs-Kt-SJP"/>
                             <constraint firstItem="eU8-t2-Z1h" firstAttribute="leading" secondItem="2LW-aj-XNf" secondAttribute="leading" id="LbZ-po-L3W"/>
-                            <constraint firstItem="oJ5-W6-bO0" firstAttribute="top" secondItem="Vdu-rp-Xbq" secondAttribute="bottom" constant="25" id="Qwb-qn-1za"/>
                             <constraint firstItem="gWE-GR-Wup" firstAttribute="centerY" secondItem="atv-uu-jbt" secondAttribute="centerY" id="RPT-7S-kqe"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2Tb-yE-hKi" secondAttribute="bottom" constant="10" id="RXr-mZ-Pc2"/>
                             <constraint firstItem="Man-pH-MAj" firstAttribute="centerX" secondItem="2LW-aj-XNf" secondAttribute="centerX" id="Rm2-BU-u6x"/>
                             <constraint firstItem="r19-AP-43b" firstAttribute="top" secondItem="Man-pH-MAj" secondAttribute="bottom" constant="15" id="T92-Oz-WyA"/>
                             <constraint firstItem="38Q-Cy-IQg" firstAttribute="top" secondItem="atv-uu-jbt" secondAttribute="bottom" constant="15" id="UDk-3s-TDJ"/>
@@ -102,9 +88,6 @@
                             <constraint firstItem="atv-uu-jbt" firstAttribute="top" secondItem="r19-AP-43b" secondAttribute="bottom" constant="15" id="WuO-5g-7j6"/>
                             <constraint firstItem="Man-pH-MAj" firstAttribute="trailing" secondItem="r19-AP-43b" secondAttribute="trailing" id="ZYB-Bg-vmE"/>
                             <constraint firstItem="Man-pH-MAj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="eRb-Qc-NIl"/>
-                            <constraint firstItem="2Tb-yE-hKi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="erY-In-KEZ"/>
-                            <constraint firstItem="oJ5-W6-bO0" firstAttribute="leading" secondItem="2LW-aj-XNf" secondAttribute="leading" id="fsN-H4-cmc"/>
-                            <constraint firstItem="2Tb-yE-hKi" firstAttribute="top" secondItem="oJ5-W6-bO0" secondAttribute="bottom" constant="10" id="g25-ta-hVF"/>
                             <constraint firstItem="38Q-Cy-IQg" firstAttribute="centerX" secondItem="eU8-t2-Z1h" secondAttribute="centerX" id="iFg-iI-pEL"/>
                             <constraint firstItem="Man-pH-MAj" firstAttribute="leading" secondItem="atv-uu-jbt" secondAttribute="leading" id="ikl-Za-52Q"/>
                             <constraint firstItem="2LW-aj-XNf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="lAo-A8-TB7"/>
@@ -116,7 +99,6 @@
                             <constraint firstItem="Man-pH-MAj" firstAttribute="trailing" secondItem="atv-uu-jbt" secondAttribute="trailing" id="sgo-Cw-Ics"/>
                             <constraint firstItem="Man-pH-MAj" firstAttribute="leading" secondItem="2LW-aj-XNf" secondAttribute="trailing" constant="30" id="u9r-ws-8iF"/>
                             <constraint firstItem="eU8-t2-Z1h" firstAttribute="centerY" secondItem="38Q-Cy-IQg" secondAttribute="centerY" id="uHG-Pc-SjE"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="2Tb-yE-hKi" secondAttribute="trailing" constant="10" id="wX6-Ox-Cx2"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -132,11 +114,46 @@
                         <outlet property="emailTextField" destination="r19-AP-43b" id="VGL-zW-wjO"/>
                         <outlet property="passwordTextField" destination="atv-uu-jbt" id="waU-17-HDX"/>
                         <outlet property="requestTextField" destination="38Q-Cy-IQg" id="sU1-Di-KLg"/>
-                        <outlet property="resultTextView" destination="2Tb-yE-hKi" id="TFM-Ag-9Hn"/>
+                        <segue destination="Olj-Yn-RR9" kind="show" identifier="ResultsSegue" id="ovB-bB-yAh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Results View Controller-->
+        <scene sceneID="vih-qw-fOV">
+            <objects>
+                <viewController id="Olj-Yn-RR9" customClass="ResultsViewController" customModule="JonsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uLk-wR-5bX"/>
+                        <viewControllerLayoutGuide type="bottom" id="p15-Ac-DZm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tWk-wo-I5X">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aad-Ue-N50">
+                                <rect key="frame" x="16" y="0.0" width="568" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Aad-Ue-N50" firstAttribute="top" secondItem="tWk-wo-I5X" secondAttribute="topMargin" id="By6-wi-Y36"/>
+                            <constraint firstItem="p15-Ac-DZm" firstAttribute="top" secondItem="Aad-Ue-N50" secondAttribute="bottom" id="UzF-fR-Vce"/>
+                            <constraint firstItem="Aad-Ue-N50" firstAttribute="leading" secondItem="tWk-wo-I5X" secondAttribute="leadingMargin" id="pnU-gp-IlF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Aad-Ue-N50" secondAttribute="trailing" id="tht-7h-lMn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="Aad-Ue-N50" id="ub2-gD-GmN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IGR-Hd-vtT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="813" y="135"/>
         </scene>
     </scenes>
 </document>
