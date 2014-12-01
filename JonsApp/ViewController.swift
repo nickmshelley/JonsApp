@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var clientNameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var requestTextField: UITextField!
     
     let baseURLString = "https://admin4.testandtarget.omniture.com/admin/rest/v4/segments?"
     
@@ -30,7 +29,6 @@ class ViewController: UIViewController {
     @IBAction func submit() {
         //resignFirstResponder()
         let urlString = "\(baseURLString)client=\(clientNameTextField.text)&email=\(emailTextField.text)&password=\(passwordTextField.text)"
-        requestTextField.text = urlString
         if let url = NSURL(string: urlString) {
             if let data = NSData(contentsOfURL: url) {
                 if let response = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: nil) as? NSArray {
