@@ -22,8 +22,7 @@ class ViewController: UIViewController {
         // Set defaults here
         // You can also delete or comment these lines if you want it to start blank
         clientNameTextField.text = "jonteherophotography"
-        emailTextField.text = "nickmshelly@gmail.com"
-        passwordTextField.text = "seeyoul8r"
+        emailTextField.text = "jtehero@adobe.com"
     }
 
     @IBAction func submit() {
